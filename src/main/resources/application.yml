@@ -10,6 +10,8 @@ spring:
       connection:
         connect-timeout: 10s
         init-query-timeout: 10s
+
+spring.main.allow-circular-references: true
         
 datastax.astra:
   secure-connect-bundle: secure-connect.zip
